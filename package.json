@@ -1,8 +1,8 @@
 
 {
-  "name": "esthercoin",
+  "name": "estherbit-tests",
   "version": "1.0.0",
-  "description": "EstherCoin - A SIP-010 compliant fungible token on Stacks blockchain",
+  "description": "Run unit tests on this project.",
   "type": "module",
   "private": true,
   "scripts": {
@@ -10,7 +10,7 @@
     "test:report": "vitest run -- --coverage --costs",
     "test:watch": "chokidar \"tests/**/*.ts\" \"contracts/**/*.clar\" -c \"npm run test:report\""
   },
-  "author": "Anthony",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "@hirosystems/clarinet-sdk": "^3.6.0",
